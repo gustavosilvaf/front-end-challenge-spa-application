@@ -9,6 +9,6 @@ export const MENU_ITEMS = [
   },
   {
     link: "/guarantee",
-    label: "guarantee",
+    label: "Guarantee",
   },
 ];

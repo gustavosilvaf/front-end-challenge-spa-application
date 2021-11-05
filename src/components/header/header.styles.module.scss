@@ -1,0 +1,42 @@
+.container {
+    background-color: var(--white);
+    height: 4rem;
+    width: 100%;
+
+    header {
+        max-width: 1280px;
+        margin: auto;
+        padding: 2rem;
+    }
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 12rem !important;
+    }
+
+    nav {
+        display: flex;
+        gap: 8rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        color: var(--primary-color);
+
+        a{
+            transition: all 0.2s;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+
+.logo {
+    width: 10px;
+}
