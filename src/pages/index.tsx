@@ -4,6 +4,7 @@ import Image from "next/image";
 import FirstCallImage from "../assets/first-call-image.png";
 import { Footer } from "../components/footer/footer";
 import FadeIn from "react-fade-in";
+import { GetStaticProps } from "next";
 
 export default function Home() {
   return (
@@ -39,3 +40,10 @@ export default function Home() {
     </>
   );
 }
+
+export const getStaticProps: GetStaticProps = async () => {
+  return {
+    props: {},
+    revalidate: 60 * 60 * 24,
+  };
+};
