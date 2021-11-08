@@ -5,10 +5,11 @@
     gap: 2rem;
     align-items: center;
     height: 80vh;
+    background-color: var(--gray-background);
 
 
     div {
-        width: 80%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -73,4 +74,41 @@
     width: 100%;
     max-width: 1280px;
     margin: auto;
+}
+
+@media (max-width: 768px) {
+    .firstCall {
+        h1 {
+            text-align: center;
+            width: 100% !important;
+        }
+
+        .limiter {
+            flex-direction: column;
+        }
+    }
+
+    .aboutUs {
+        flex-direction: column;
+
+        .aboutUsContent {
+            margin-left: 0 !important;
+            max-width: 80% !important;
+            text-align: center;
+        }
+
+        h5,
+        h3 {
+            width: 100% !important;
+        }
+
+        .limiter {
+            flex-direction: column;
+
+        }
+    }
+
+    .aboutUsBackground {
+        position: initial !important;
+    }
 }

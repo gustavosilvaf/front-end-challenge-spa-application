@@ -40,3 +40,27 @@
     grid-template-columns: auto auto auto;
     gap: 2rem;
 }
+
+@media (max-width: 768px) {
+    .limiter {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        height: 40vh;
+    }
+
+    .followUs,
+    .contactUs {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2rem !important;
+    }
+}
