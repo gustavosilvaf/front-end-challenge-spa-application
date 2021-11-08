@@ -40,7 +40,41 @@
     }
 }
 
+.mobileMenu {
+    width: 100%;
+    display: flex;
 
-.logo {
-    width: 10px;
+    div {
+        margin-left: -2rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    button {
+        margin-left: -2rem;
+        border: none;
+        cursor: pointer;
+        background: transparent;
+        padding: 2rem;
+
+        img {
+            height: 100% !important;
+        }
+    }
+
+    img {
+        height: 4rem !important;
+    }
+
+}
+
+.drawer {
+    height: 100%;
+    background-color: var(--gray-background);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 1.5rem;
 }

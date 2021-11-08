@@ -2524,6 +2524,14 @@ raw-body@2.4.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-aria-offcanvas@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/react-aria-offcanvas/-/react-aria-offcanvas-1.4.2.tgz#54c6881cc2fca702b799d7b343ee188c4ebcb121"
+  integrity sha512-8XLqn7dqVsRYCiYK57LN/Lq1Ge2rVRx60qamQ1RMkKYXBfk4rP6S9IrFoXWiSX8Yp2hJU+MRfzwF4NimSzlvig==
+  dependencies:
+    prop-types "^15.7.2"
+    run-event-handler-once "^1.0.2"
+
 react-dom@17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
@@ -2652,6 +2660,11 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
   dependencies:
     hash-base "^3.0.0"
     inherits "^2.0.1"
+
+run-event-handler-once@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/run-event-handler-once/-/run-event-handler-once-1.0.2.tgz#4d85a9bf78859fdd76eb6796637c64b60067770c"
+  integrity sha512-ZCTACJVYODJ1Ver0WMfoIN8SKmln+TgJ0W17m/Ka7PMhHwVU97XK2GkLeww6azYqlaM9UjnaWqz124F+ZtH5SA==
 
 run-parallel@^1.1.9:
   version "1.2.0"
