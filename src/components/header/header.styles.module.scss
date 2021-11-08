@@ -1,12 +1,14 @@
 .container {
     background-color: var(--white);
-    height: 4rem;
     width: 100%;
+    -webkit-box-shadow: 0 0 16px 6px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0 0 16px 6px rgba(0, 0, 0, 0.36);
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.36);
 
     header {
         max-width: 1280px;
         margin: auto;
-        padding: 2rem;
+        padding: 1rem 2rem;
     }
 }
 
@@ -17,7 +19,7 @@
     align-items: center;
 
     img {
-        width: 12rem !important;
+        height: 3rem !important;
     }
 
     nav {
@@ -27,9 +29,11 @@
         font-weight: 300;
         color: var(--primary-color);
 
-        a{
+        a {
             transition: all 0.2s;
+            letter-spacing: 0.2rem;
         }
+
         a:hover {
             text-decoration: underline;
         }
