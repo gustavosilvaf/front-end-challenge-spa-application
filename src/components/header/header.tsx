@@ -15,7 +15,7 @@ export const Header = () => {
 
   const isMobileVision = width <= 768;
 
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className={styles.container}>
